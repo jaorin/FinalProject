@@ -1,0 +1,24 @@
+{
+    "fields": [
+       
+ 
+        {
+            "name": "Datetoday",
+            "type": "date"
+        },
+        {
+            "name": "DateCheckout",
+            "type": "date"
+        },
+        {
+            "name": "LeaseID",
+            "type": "integer"
+        },
+        {
+            "name": "Usersid",
+            "type": "integer"
+        }
+        
+
+    ]
+}

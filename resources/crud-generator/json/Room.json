@@ -1,0 +1,33 @@
+{
+    "fields": [
+        {
+            "name": "NumberRoom",
+            "type": "varchar"
+        },
+        {
+            "name": "Floor",
+            "type": "varchar"
+        },
+        {
+            "name": "TypeRoomID",
+            "type": "integer"
+        },
+        {
+            "name": "RoomStatus",
+            "type": "varchar"
+        },
+        {
+            "name": "New_Water",
+            "type": "integer"
+        },
+        {
+            "name": "New_Electricity",
+            "type": "integer"
+        },
+        {
+            "name": "PayStatus",
+            "type": "varchar"
+        }
+        
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "fields": [
+        {
+            "name": "TypeRoomName",
+            "type": "varchar"
+        },
+        {
+            "name": "Price",
+            "type": "decimal"
+        },
+        {
+            "name": "Booking",
+            "type": "varchar"
+        },
+        {
+            "name": "DepositBooking",
+            "type": "decimal"
+        },
+        {
+            "name": "Water",
+            "type": "integer"
+        },
+        {
+            "name": "Electricity",
+            "type": "integer"
+        },
+        {
+            "name": "Deposit",
+            "type": "integer"
+        },
+        {
+            "name": "PhotoTypeRoom",
+            "type": "file"
+        }
+        
+
+    ]
+}

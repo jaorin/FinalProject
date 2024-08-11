@@ -1,0 +1,74 @@
+{
+    "fields": [
+        {
+            "name": "DateInvoices",
+            "type": "datetime"
+        },
+        {
+            "name": "Date_Pay",
+            "type": "datetime"
+        },
+        {
+            "name": "Pay_Date",
+            "type": "datetime"
+        },
+        {
+            "name": "Delay_Date",
+            "type": "varchar"
+        },
+        {
+            "name": "Water_Old",
+            "type": "integer"
+        },
+        {
+            "name": "Water_New",
+            "type": "integer"
+        },
+        {
+            "name": "Water_Unit",
+            "type": "integer"
+        },
+        {
+            "name": "Water_Perunit",
+            "type": "integer"
+        },
+        {
+            "name": "Water_Total",
+            "type": "decimal"
+        },
+        {
+            "name": "Electricity_Old",
+            "type": "integer"
+        },
+        {
+            "name": "Electricity_New",
+            "type": "integer"
+        },
+        {
+            "name": "Electricity_Unit",
+            "type": "integer"
+        },
+        {
+            "name": "Electricity_Perunit",
+            "type": "integer"
+        },
+        {
+            "name": "Electricity_Total",
+            "type": "decimal"
+        },
+        {
+            "name": "Room_Price",
+            "type": "decimal"
+        },
+        {
+            "name": "Net_Pay",
+            "type": "decimal"
+        },
+        {
+            "name": "LeaseID",
+            "type": "integer"
+        }
+        
+
+    ]
+}

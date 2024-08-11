@@ -1,0 +1,94 @@
+{
+    "fields": [
+        {
+            "name": "RoomID",
+            "type": "integer"
+        },
+        {
+            "name": "Usersid",
+            "type": "integer"
+        },
+        {
+            "name": "Idcard",
+            "type": "integer"
+        },
+        {
+            "name": "DateLease",
+            "type": "date"
+        },
+        {
+            "name": "Vehicle",
+            "type": "varchar"
+        },
+        {
+            "name": "Carregistration",
+            "type": "varchar"
+        },
+        {
+            "name": "Roomer",
+            "type": "integer"
+        },
+        {
+            "name": "KeyCard",
+            "type": "integer"
+        },
+        {
+            "name": "KeyPrice",
+            "type": "decimal"
+        },
+        {
+            "name": "Room_Price",
+            "type": "decimal"
+        },
+        {
+            "name": "Booking_Price",
+            "type": "decimal"
+        },
+        {
+            "name": "Deposit_Price",
+            "type": "decimal"
+        },
+        {
+            "name": "Net_Pay",
+            "type": "decimal"
+        },
+        {
+            "name": "Meter_Water",
+            "type": "integer"
+        },
+        {
+            "name": "Meter_Electricity",
+            "type": "integer"
+        },
+        {
+            "name": "Status_Lease",
+            "type": "varchar"
+        },
+        {
+            "name": "PaymentStatus",
+            "type": "varchar"
+        },
+        {
+            "name": "Booking_Slip",
+            "type": "varchar"
+        },
+        {
+            "name": "Idcard_Doc",
+            "type": "varchar"
+        },
+        {
+            "name": "Lease_Doc",
+            "type": "varchar"
+        },
+        {
+            "name": "Checkout",
+            "type": "datetime"
+        },
+        {
+            "name": "LeaseTotal",
+            "type": "decimal"
+        }
+        
+
+    ]
+}

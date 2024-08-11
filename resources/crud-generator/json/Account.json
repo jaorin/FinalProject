@@ -1,0 +1,40 @@
+{
+    "fields": [
+        {
+            "name": "username",
+            "type": "varchar"
+        },
+        {
+            "name": "Email",
+            "type": "varchar"
+        },
+        {
+            "name": "Password",
+            "type": "varchar"
+        },
+        {
+            "name": "Age",
+            "type": "integer"
+        },
+        {
+            "name": "Gender",
+            "type": "varchar"
+        },
+        {
+            "name": "Phone",
+            "type": "varchar"
+        },
+        {
+            "name": "Photo",
+            "type": "file"
+        },
+        {
+            "name": "Status",
+            "type": "select",
+            "options": {
+                "admin": "Admin",
+                "user": "User"
+            }
+        }
+    ]
+}

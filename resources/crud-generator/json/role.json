@@ -1,0 +1,12 @@
+{
+    "fields": [
+        {
+            "name": "role_id",
+            "type": "integer"
+        },
+        {
+            "name": "role_name",
+            "type": "varchar"
+        }
+    ]
+}

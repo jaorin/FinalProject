@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+    @font-face {
+        font-family: 'THSarabunNew';
+        font-style: normal;
+        font-weight: normal;
+        src: url("{{ public_path('fonts/THSarabunNew.ttf') }}") format('truetype');
+    }
+
+    /* โค้ด CSS สำหรับจัดตรงกลางแนวนอนและแนวตั้ง */
+    .text-center {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* คลาส .table ของคุณ */
+    .table {
+
+        white-space: nowrap;
+        transform: rotate(0deg) !important;
+        border: 1px solid;
+        margin: auto;
+    }
+
+    /* CSS สำหรับ tbody td */
+    tbody td {
+        font-size: 16pt;
+        border-bottom: 1px solid #ddd;
+        padding: 15px;
+    }
+
+    body {
+        font-family: "THSarabunNew";
+        font-size: 18pt;
+    }
+
+    /* CSS สำหรับเฮดเดอร์ */
+    .header {
+        text-align: center;
+    }
+    </style>
+
+
+
+</head>
+
+<body>
+    <center>
+        <h2 class="mb-0">รายงานข้อมูลผู้เช่า</h2>
+
+    </center>
+
+
+    <div class="table-responsive ">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="text-center">ชื่อผู้เช่า</th>
+                    <th class="text-center">Email</th>
+                    <th class="text-center">อายุ</th>
+                    <th class="text-center">เพศ</th>
+                    <th class="text-center">เบอร์โทรศัพท์</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($reportUser as $item)
+                <tr>
+                    <td class="text-center">{{ $item->name }}</td>
+                    <td class="text-center">{{ $item->email }}</td>
+                    <td class="text-center">{{ $item->age }}</td>
+                    <td class="text-center">{{ $item->gender }}</td>
+                    <td class="text-center">{{ $item->phone }}</td>
+                </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

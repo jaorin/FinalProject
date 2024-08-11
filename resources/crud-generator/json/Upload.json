@@ -1,0 +1,27 @@
+{
+    "fields": [
+       
+        {
+            "name": "Photo",
+            "type": "file"
+        },
+        {
+            "name": "DateUpload",
+            "type": "date"
+        },
+        {
+            "name": "NumberRoom",
+            "type": "integer"
+        },
+        {
+            "name": "LeaseID",
+            "type": "integer"
+        },
+        {
+            "name": "Usersid",
+            "type": "integer"
+        }
+        
+
+    ]
+}

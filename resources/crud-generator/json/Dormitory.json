@@ -1,0 +1,29 @@
+{
+    "fields": [
+        {
+            "name": "Namedormi",
+            "type": "varchar"
+        },
+        {
+            "name": "Address",
+            "type": "varchar"
+        },
+        {
+            "name": "Phone",
+            "type": "varchar"
+        },
+        {
+            "name": "Bankaccount",
+            "type": "integer"
+        },
+        {
+            "name": "Logobank",
+            "type": "file"
+        },
+        {
+            "name": "Photo",
+            "type": "file"
+        }
+
+    ]
+}

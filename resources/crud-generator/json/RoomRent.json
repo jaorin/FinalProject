@@ -1,0 +1,21 @@
+{
+    "fields": [
+        {
+            "name": "user_id",
+            "type": "integer"
+        },
+        {
+            "name": "room_id",
+            "type": "integer"
+        },
+        {
+            "name": "end_rent",
+            "type": "datetime"
+        },
+        {
+            "name": "rent_note",
+            "type": "varchar"
+        }
+        
+    ]
+}

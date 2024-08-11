@@ -1,0 +1,18 @@
+{
+    "fields": [
+      
+        {
+            "name": "Date",
+            "type": "datetime"
+        },
+        {
+            "name": "Incomes",
+            "type": "decimal"
+        },
+        {
+            "name": "remark",
+            "type": "varchar"
+        }
+
+    ]
+}
